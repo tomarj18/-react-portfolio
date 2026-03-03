@@ -43,7 +43,7 @@ export const projectsData = [
     technologies: ["JavaScript", "REST API", "HTML5", "CSS3"],
     category: "Web Development",
     github: "https://github.com/tomarj18",
-    demo: "#"
+    demo: "https://amazing-sunflower-0d3fb4.netlify.app/"
   },
   {
     id: 5,
@@ -52,7 +52,6 @@ export const projectsData = [
     image: figmaImg,
     technologies: ["Figma", "UI/UX Design", "Wireframing", "Prototyping"],
     category: "Design",
-    github: "#",
     demo: "https://www.figma.com/design/hBmbWnX6666Iv0gsdSQW03/Untitled?node-id=0-1&t=N2tiQJeHkMXYkHCU-1"
   },
   {
