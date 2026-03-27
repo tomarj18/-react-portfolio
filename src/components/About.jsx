@@ -77,7 +77,7 @@ const About = () => {
              The Story Behind the Code
             </h3>
             <p className="text-blue-300 text-lg mb-4 leading-relaxed font-medium">
-              Rooted in over seven years of business and client operations experience, my transition into technology is built on strategy, structure, and a drive to create meaningful, scalable solutions.
+              Rooted in over ten years of business and client operations experience, my transition into technology is built on strategy, structure, and a drive to create meaningful, scalable solutions.
             </p>
             <p className="text-blue-300 text-lg mb-4 leading-relaxed font-medium">
               I have built and deployed multiple projects including a full-stack bookstore application with CRUD operations, a React weather application powered by the OpenWeather API, a full-stack React and Express todo application, a portfolio website with EmailJS integration, UI/UX design projects in Figma, and I am currently developing a full-stack e-commerce capstone using React, Node.js, MongoDB, and more. These projects reflect my growing skills across frontend development, backend logic, API integration, database design, and UI/UX planning. My tech stack continues to expand as I do.
