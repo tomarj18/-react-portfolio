@@ -1,17 +1,24 @@
 import { motion } from "framer-motion";
-import { FaReact, FaNodeJs, FaDatabase, FaGitAlt, FaCloud } from "react-icons/fa";
-import { SiJavascript, SiMongodb, SiFigma, SiExpress, SiVite, SiRender, SiVercel, SiNetlify, SiGithub, SiInsomnia, SiHtml5, SiCss3 } from "react-icons/si";
+import { FaReact, FaNodeJs, FaDatabase, FaGitAlt, FaCloud, FaPython, FaLock, FaCode } from "react-icons/fa";
+import { SiJavascript, SiMongodb, SiFigma, SiExpress, SiVite, SiRender, SiVercel, SiNetlify, SiGithub, SiInsomnia, SiHtml5, SiTailwindcss, SiStripe } from "react-icons/si";
 import { VscCode } from "react-icons/vsc";
 
 const About = () => {
   const skillCategories = [
     {
+      category: "🗣 Coding Languages",
+      skills: [
+        { name: "JavaScript", icon: <SiJavascript />, color: "text-yellow-400" },
+        { name: "HTML", icon: <SiHtml5 />, color: "text-orange-500" },
+        { name: "CSS", icon: <FaCode />, color: "text-blue-500" },
+        { name: "Python", icon: <FaPython />, color: "text-yellow-300" },
+      ],
+    },
+    {
       category: "💻 Frontend",
       skills: [
         { name: "React", icon: <FaReact />, color: "text-blue-400" },
-        { name: "JavaScript", icon: <SiJavascript />, color: "text-yellow-400" },
-        { name: "HTML", icon: <SiHtml5 />, color: "text-orange-500" },
-        { name: "CSS", icon: <SiCss3 />, color: "text-blue-500" },
+        { name: "TailwindCSS", icon: <SiTailwindcss />, color: "text-cyan-400" },
         { name: "Figma", icon: <SiFigma />, color: "text-purple-400" },
         { name: "Vite", icon: <SiVite />, color: "text-purple-500" },
       ],
@@ -23,16 +30,19 @@ const About = () => {
         { name: "Express", icon: <SiExpress />, color: "text-gray-300" },
         { name: "MongoDB", icon: <SiMongodb />, color: "text-green-500" },
         { name: "REST APIs", icon: <FaDatabase />, color: "text-yellow-500" },
+        { name: "Stripe", icon: <SiStripe />, color: "text-purple-400" },
+        { name: "JWT Auth", icon: <FaLock />, color: "text-pink-400" },
         { name: "EmailJS", icon: <FaCloud />, color: "text-red-400" },
       ],
     },
     {
       category: "☁️ Cloud & Deployment",
       skills: [
-        { name: "Render", icon: <SiRender />, color: "text-blue-400" },
         { name: "Vercel", icon: <SiVercel />, color: "text-white" },
+        { name: "Render", icon: <SiRender />, color: "text-blue-400" },
         { name: "Netlify", icon: <SiNetlify />, color: "text-teal-400" },
         { name: "MongoDB Atlas", icon: <SiMongodb />, color: "text-green-500" },
+        { name: "Cloudinary", icon: <FaCloud />, color: "text-blue-300" },
       ],
     },
     {
@@ -42,6 +52,7 @@ const About = () => {
         { name: "GitHub", icon: <SiGithub />, color: "text-white" },
         { name: "VS Code", icon: <VscCode />, color: "text-blue-500" },
         { name: "Insomnia", icon: <SiInsomnia />, color: "text-purple-400" },
+        { name: "Framer Motion", icon: <FaDatabase />, color: "text-pink-400" },
       ],
     },
   ];
@@ -63,24 +74,23 @@ const About = () => {
             About Me
           </h2>
 
-          {/* Bio Text */}
           <div
             className="mx-auto mb-16 p-8 rounded-2xl"
             style={{
-             border: "2px solid rgba(2, 38, 82, 0.6)",
-             boxShadow: "0 0 30px rgba(96, 165, 250, 0.2)",
-             maxWidth: "1000px",
-             background: "#1f2937",
-         }}
+              border: "2px solid rgba(2, 38, 82, 0.6)",
+              boxShadow: "0 0 30px rgba(96, 165, 250, 0.2)",
+              maxWidth: "1000px",
+              background: "#1f2937",
+            }}
           >
             <h3 className="text-white text-lg mb-4 leading-relaxed font-bold">
-             The Story Behind the Code
+              The Story Behind the Code
             </h3>
             <p className="text-blue-300 text-lg mb-4 leading-relaxed font-medium">
               Rooted in over ten years of business and client operations experience, my transition into technology is built on strategy, structure, and a drive to create meaningful, scalable solutions.
             </p>
             <p className="text-blue-300 text-lg mb-4 leading-relaxed font-medium">
-              I have built and deployed multiple projects including a full-stack bookstore application with CRUD operations, a React weather application powered by the OpenWeather API, a full-stack React and Express todo application, a portfolio website with EmailJS integration, UI/UX design projects in Figma, and I am currently developing a full-stack e-commerce capstone using React, Node.js, MongoDB, and more. These projects reflect my growing skills across frontend development, backend logic, API integration, database design, and UI/UX planning. My tech stack continues to expand as I do.
+              I have built and deployed multiple projects including a full-stack bookstore application with CRUD operations, a React weather application powered by the OpenWeather API, a full-stack React and Express todo application, a portfolio website with EmailJS integration, UI/UX design projects in Figma, and a full-stack e-commerce platform, Kindled Paper Studio, featuring JWT authentication, Stripe payments, Cloudinary image uploads, and an admin dashboard. These projects reflect my growing skills across frontend development, backend logic, API integration, database design, and UI/UX planning. My tech stack continues to expand as I do.
             </p>
             <p className="text-blue-300 text-lg mb-4 leading-relaxed font-medium">
               What makes me different is that I don't just write code. I understand business. My experience in healthcare, spa operations, marketing systems, and client relationships taught me how to solve real problems, communicate clearly, and create solutions that improve both customer experience and business efficiency.
@@ -93,7 +103,6 @@ const About = () => {
             </p>
           </div>
 
-          {/* Skills by Category */}
           <div className="grid md:grid-cols-2 gap-10 max-w-5xl mx-auto">
             {skillCategories.map((cat, catIndex) => (
               <motion.div
