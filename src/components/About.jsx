@@ -86,17 +86,17 @@ const About = () => {
             <h3 className="text-white text-lg mb-4 leading-relaxed font-bold">
               The Story Behind the Code
             </h3>
-            <p className="text-blue-300 text-lg mb-4 leading-relaxed font-medium">
-              Rooted in over ten years of business and client operations experience, my transition into technology is built on strategy, structure, and a drive to create meaningful, scalable solutions.
+           <p className="text-blue-300 text-lg mb-4 leading-relaxed font-medium">
+              Rooted in over ten years of business operations, customer support, and client-facing experience, my transition into technology was driven by a desire to solve problems more effectively and create systems that help people work smarter.
             </p>
             <p className="text-blue-300 text-lg mb-4 leading-relaxed font-medium">
-              I have built and deployed multiple projects including a full-stack bookstore application with CRUD operations, a React weather application powered by the OpenWeather API, a full-stack React and Express todo application, a portfolio website with EmailJS integration, UI/UX design projects in Figma, and a full-stack e-commerce platform, Kindled Paper Studio, featuring JWT authentication, Stripe payments, Cloudinary image uploads, and an admin dashboard. These projects reflect my growing skills across frontend development, backend logic, API integration, database design, and UI/UX planning. My tech stack continues to expand as I do.
+              Through hands-on development projects, I have built and deployed full-stack applications, integrated APIs, designed user interfaces, and developed solutions that strengthened my understanding of how technology works behind the scenes. These experiences gave me a strong technical foundation while reinforcing my passion for solving real-world challenges.
             </p>
             <p className="text-blue-300 text-lg mb-4 leading-relaxed font-medium">
-              What makes me different is that I don't just write code. I understand business. My experience in healthcare, spa operations, marketing systems, and client relationships taught me how to solve real problems, communicate clearly, and create solutions that improve both customer experience and business efficiency.
+              What sets me apart is my ability to connect technology with business needs. My experience across healthcare, wellness, operations, and customer-facing environments allows me to approach problems from both the technical and human perspective. Whether troubleshooting systems, improving workflows, documenting processes, or supporting users, I focus on creating solutions that are practical, scalable, and easy to use.
             </p>
             <p className="text-blue-300 text-lg mb-4 leading-relaxed font-medium">
-              I am seeking a role where I can grow, contribute, and continue building strong systems. I bring passion into everything I do, and I am always open to learning and increasing my knowledge and skills in the world of technology. I am currently expanding my expertise in Python, AI, networking, cloud technologies, and continuing education beyond formal programs because I strive every day to be better than my previous self.
+              I am passionate about technology, AI, and digital systems that help people navigate their work and lives more effectively. I believe technology should create clarity, reduce friction, and empower people to do their best work.
             </p>
             <p className="text-white text-lg mb-4 leading-relaxed font-bold">
               I build with purpose, discipline, and heart.

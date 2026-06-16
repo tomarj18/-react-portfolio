@@ -9,7 +9,7 @@ const Hero = () => {
   const [typingSpeed, setTypingSpeed] = useState(150);
 
   const roles = [
-  "an Application Developer",
+  "a Digital Systems Builder",
   "Building Full Stack Solutions",
   "a Cloud & AI Enthusiast"
 ];
@@ -61,9 +61,9 @@ const Hero = () => {
          <div className="text-lg md:text-xl mb-12 max-w-2xl mx-auto text-gray-300 space-y-4">
   
            <p className="text-lg md:text-xl mb-12 max-w-2xl mx-auto text-gray-300">
-            Building purposeful, scalable web applications that bridge business
-            strategy with technical innovation, while expanding into cloud and
-            AI-driven technologies.
+            Building digital solutions that connect people, processes, and technology. 
+            Combining technical development, systems thinking, and AI-powered problem solving 
+            to improve workflows, streamline operations, and create meaningful business impact.
           </p>
          </div>
 
