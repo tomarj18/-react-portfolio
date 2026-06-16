@@ -9,7 +9,7 @@ export const projectsData = [
   {
     id: 1,
     title: "Kindled Paper Studio",
-    description: "Developed a full-stack e-commerce platform featuring secure user authentication, role-based admin access, product management, shopping cart functionality, Stripe payment processing, and real-time order management through a dedicated admin dashboard.",
+    description: "Developed a full-stack e-commerce platform with secure authentication, shopping cart, Stripe payments, product management, and real-time order tracking.",
     image: kindledImg,
     technologies: ["React", "Node.js", "MongoDB", "Stripe", "Cloudinary", "JWT"],
     category: "Full Stack",
